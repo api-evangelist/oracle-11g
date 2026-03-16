@@ -1,157 +1,75 @@
+aid: oracle-11g
 name: Oracle Database 11g APIs
 description: Collection of APIs and interfaces available for Oracle Database 11g
-image: https://www.oracle.com/a/ocom/img/dc/em/oracle-db-logo.svg
-created: 2024-01-01 00:00:00+00:00
-modified: 2024-01-01 00:00:00+00:00
-specificationVersion: '0.16'
-url: https://www.oracle.com/database/technologies/oracle-database-11g.html
-apis:
-- name: Oracle Database 11g JDBC API
-  description: Java Database Connectivity driver for connecting Java applications to Oracle 11g
-  image: https://www.oracle.com/a/ocom/img/jdbc-icon.png
-  humanURL: https://docs.oracle.com/cd/E11882_01/java.112/e16548/toc.htm
-  baseURL: jdbc:oracle:thin:@hostname:1521:SID
-  tags:
-  - JDBC
-  - Java
-  - Database
-  - Connectivity
-  properties:
-  - type: Documentation
-    url: https://docs.oracle.com/cd/E11882_01/java.112/e16548/toc.htm
-  - type: API Reference
-    url: https://docs.oracle.com/cd/E11882_01/java.112/e16548/jdbcvers.htm
-  contact:
-  - FN: Oracle Support
-    email: support@oracle.com
-- name: Oracle Database 11g PL/SQL API
-  description: Procedural Language extension to SQL for stored procedures and functions
-  humanURL: https://docs.oracle.com/cd/E11882_01/appdev.112/e25519/toc.htm
-  baseURL: N/A
-  tags:
-  - PL/SQL
-  - Stored Procedures
-  - Database Programming
-  - SQL
-  properties:
-  - type: Documentation
-    url: https://docs.oracle.com/cd/E11882_01/appdev.112/e25519/toc.htm
-  - type: Language Reference
-    url: https://docs.oracle.com/cd/E11882_01/appdev.112/e25519/fundamentals.htm
-  - type: Package Reference
-    url: https://docs.oracle.com/cd/E11882_01/appdev.112/e25788/toc.htm
-  contact:
-  - FN: Oracle Support
-    email: support@oracle.com
-- name: Oracle Database 11g OCI (Oracle Call Interface)
-  description: C/C++ API for building database applications
-  humanURL: https://docs.oracle.com/cd/E11882_01/appdev.112/e10646/toc.htm
-  baseURL: N/A
-  tags:
-  - OCI
-  - C
-  - C++
-  - Native API
-  properties:
-  - type: Documentation
-    url: https://docs.oracle.com/cd/E11882_01/appdev.112/e10646/toc.htm
-  - type: API Reference
-    url: https://docs.oracle.com/cd/E11882_01/appdev.112/e10646/oci02bas.htm
-  contact:
-  - FN: Oracle Support
-    email: support@oracle.com
-- name: Oracle Database 11g ODBC API
-  description: Open Database Connectivity interface for database access
-  humanURL: https://docs.oracle.com/cd/E11882_01/server.112/e17118/toc.htm
-  baseURL: N/A
-  tags:
-  - ODBC
-  - Connectivity
-  - Standard Interface
-  properties:
-  - type: Documentation
-    url: https://docs.oracle.com/cd/E11882_01/server.112/e17118/toc.htm
-  - type: Configuration Guide
-    url: https://docs.oracle.com/cd/E11882_01/server.112/e17118/odbc.htm
-  contact:
-  - FN: Oracle Support
-    email: support@oracle.com
-- name: Oracle Database 11g SQL*Plus API
-  description: Command-line interface for database management and SQL execution
-  humanURL: https://docs.oracle.com/cd/E11882_01/server.112/e16604/toc.htm
-  baseURL: N/A
-  tags:
-  - SQL*Plus
-  - CLI
-  - Database Management
-  - SQL
-  properties:
-  - type: Documentation
-    url: https://docs.oracle.com/cd/E11882_01/server.112/e16604/toc.htm
-  - type: User's Guide
-    url: https://docs.oracle.com/cd/E11882_01/server.112/e16604/ch_two.htm
-  contact:
-  - FN: Oracle Support
-    email: support@oracle.com
-- name: Oracle Database 11g REST Data Services
-  description: RESTful web services for Oracle Database
-  humanURL: https://www.oracle.com/database/technologies/appdev/rest.html
-  baseURL: https://hostname:port/ords/
-  tags:
-  - REST
-  - Web Services
-  - HTTP
-  - JSON
-  properties:
-  - type: Documentation
-    url: https://docs.oracle.com/cd/E56351_01/doc.30/e56293/toc.htm
-  - type: Installation Guide
-    url: https://docs.oracle.com/cd/E56351_01/doc.30/e56293/installation.htm
-  contact:
-  - FN: Oracle Support
-    email: support@oracle.com
-- name: Oracle Database 11g XML DB API
-  description: Native XML storage and retrieval capabilities
-  humanURL: https://docs.oracle.com/cd/E11882_01/appdev.112/e23094/toc.htm
-  baseURL: N/A
-  tags:
-  - XML
-  - XQuery
-  - Document Storage
-  properties:
-  - type: Documentation
-    url: https://docs.oracle.com/cd/E11882_01/appdev.112/e23094/toc.htm
-  - type: Developer's Guide
-    url: https://docs.oracle.com/cd/E11882_01/appdev.112/e23094/xdb01int.htm
-  contact:
-  - FN: Oracle Support
-    email: support@oracle.com
-- name: Oracle Database 11g Data Provider for .NET (ODP.NET)
-  description: ADO.NET data provider for .NET applications
-  humanURL: https://docs.oracle.com/cd/E11882_01/win.112/e23174/toc.htm
-  baseURL: N/A
-  tags:
-  - .NET
-  - ADO.NET
-  - CSharp
-  - VB.NET
-  properties:
-  - type: Documentation
-    url: https://docs.oracle.com/cd/E11882_01/win.112/e23174/toc.htm
-  - type: Developer's Guide
-    url: https://docs.oracle.com/cd/E11882_01/win.112/e23174/intro.htm
-  contact:
-  - FN: Oracle Support
-    email: support@oracle.com
-maintainers:
-- FN: Oracle Corporation
-  email: support@oracle.com
-  url: https://www.oracle.com
+type: Index
+position: Consumer
+access: 3rd-Party
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/oracle-11g/refs/heads/main/apis.yml
+created: '2024-01-01'
+modified: '2026-03-16'
+specificationVersion: '0.19'
 tags:
-- Database
-- Oracle
-- Enterprise
-- RDBMS
-- SQL
-- PL/SQL
-- APIs
+  - Database
+  - Oracle
+  - Enterprise
+  - RDBMS
+  - SQL
+  - PL/SQL
+apis:
+  - aid: oracle-11g:oracle-database-11g-jdbc-api
+    name: Oracle Database 11g JDBC API
+    description: Java Database Connectivity driver for connecting Java applications to Oracle 11g
+    humanURL: https://docs.oracle.com/cd/E11882_01/java.112/e16548/toc.htm
+    tags:
+      - JDBC
+      - Java
+      - Database
+      - Connectivity
+    properties:
+      - type: Documentation
+        url: https://docs.oracle.com/cd/E11882_01/java.112/e16548/toc.htm
+  - aid: oracle-11g:oracle-database-11g-plsql-api
+    name: Oracle Database 11g PL/SQL API
+    description: Procedural Language extension to SQL for stored procedures and functions
+    humanURL: https://docs.oracle.com/cd/E11882_01/appdev.112/e25519/toc.htm
+    tags:
+      - PL/SQL
+      - Stored Procedures
+      - Database Programming
+      - SQL
+    properties:
+      - type: Documentation
+        url: https://docs.oracle.com/cd/E11882_01/appdev.112/e25519/toc.htm
+  - aid: oracle-11g:oracle-database-11g-oci
+    name: Oracle Database 11g OCI (Oracle Call Interface)
+    description: C/C++ API for building database applications
+    humanURL: https://docs.oracle.com/cd/E11882_01/appdev.112/e10646/toc.htm
+    tags:
+      - OCI
+      - C
+      - Native API
+    properties:
+      - type: Documentation
+        url: https://docs.oracle.com/cd/E11882_01/appdev.112/e10646/toc.htm
+  - aid: oracle-11g:oracle-database-11g-rest-data-services
+    name: Oracle Database 11g REST Data Services
+    description: RESTful web services for Oracle Database
+    humanURL: https://www.oracle.com/database/technologies/appdev/rest.html
+    tags:
+      - REST
+      - Web Services
+      - HTTP
+      - JSON
+    properties:
+      - type: Documentation
+        url: https://docs.oracle.com/cd/E56351_01/doc.30/e56293/toc.htm
+common:
+  - url: https://docs.oracle.com/cd/E11882_01/index.htm
+    name: Oracle Database 11g Documentation
+    type: Documentation
+    description: 'null'
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
