@@ -1,5 +1,5 @@
 aid: oracle-11g
-name: Oracle Database 11g APIs
+name: Oracle Database 11g
 description: Collection of APIs and interfaces available for Oracle Database 11g
 type: Index
 position: Consumer
