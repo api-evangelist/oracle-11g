@@ -1,6 +1,7 @@
 aid: oracle-11g
 name: Oracle Database 11g
-description: Collection of APIs and interfaces available for Oracle Database 11g
+description: >-
+  Collection of APIs and interfaces available for Oracle Database 11g.
 type: Index
 position: Consumer
 access: 3rd-Party
@@ -20,7 +21,9 @@ tags:
 apis:
   - aid: oracle-11g:oracle-database-11g-jdbc-api
     name: Oracle Database 11g JDBC API
-    description: Java Database Connectivity driver for connecting Java applications to Oracle 11g
+    description: >-
+      Java Database Connectivity driver for connecting Java applications to Oracle
+      11g.
     humanURL: https://docs.oracle.com/cd/E11882_01/java.112/e16548/toc.htm
     tags:
       - JDBC
@@ -32,7 +35,8 @@ apis:
         url: https://docs.oracle.com/cd/E11882_01/java.112/e16548/toc.htm
   - aid: oracle-11g:oracle-database-11g-plsql-api
     name: Oracle Database 11g PL/SQL API
-    description: Procedural Language extension to SQL for stored procedures and functions
+    description: >-
+      Procedural Language extension to SQL for stored procedures and functions.
     humanURL: https://docs.oracle.com/cd/E11882_01/appdev.112/e25519/toc.htm
     tags:
       - PL/SQL
@@ -44,7 +48,8 @@ apis:
         url: https://docs.oracle.com/cd/E11882_01/appdev.112/e25519/toc.htm
   - aid: oracle-11g:oracle-database-11g-oci
     name: Oracle Database 11g OCI (Oracle Call Interface)
-    description: C/C++ API for building database applications
+    description: >-
+      C/C++ API for building database applications.
     humanURL: https://docs.oracle.com/cd/E11882_01/appdev.112/e10646/toc.htm
     tags:
       - OCI
@@ -55,7 +60,8 @@ apis:
         url: https://docs.oracle.com/cd/E11882_01/appdev.112/e10646/toc.htm
   - aid: oracle-11g:oracle-database-11g-rest-data-services
     name: Oracle Database 11g REST Data Services
-    description: RESTful web services for Oracle Database
+    description: >-
+      RESTful web services for Oracle Database.
     humanURL: https://www.oracle.com/database/technologies/appdev/rest.html
     tags:
       - REST
