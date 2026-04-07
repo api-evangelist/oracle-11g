@@ -13,11 +13,11 @@ modified: '2026-03-16'
 specificationVersion: '0.19'
 tags:
   - Database
-  - Oracle
   - Enterprise
+  - Oracle
+  - PL/SQL
   - RDBMS
   - SQL
-  - PL/SQL
 apis:
   - aid: oracle-11g:oracle-database-11g-jdbc-api
     name: Oracle Database 11g JDBC API
@@ -26,10 +26,10 @@ apis:
       11g.
     humanURL: https://docs.oracle.com/cd/E11882_01/java.112/e16548/toc.htm
     tags:
-      - JDBC
-      - Java
-      - Database
       - Connectivity
+      - Database
+      - Java
+      - JDBC
     properties:
       - type: Documentation
         url: https://docs.oracle.com/cd/E11882_01/java.112/e16548/toc.htm
@@ -39,10 +39,10 @@ apis:
       Procedural Language extension to SQL for stored procedures and functions.
     humanURL: https://docs.oracle.com/cd/E11882_01/appdev.112/e25519/toc.htm
     tags:
-      - PL/SQL
-      - Stored Procedures
       - Database Programming
+      - PL/SQL
       - SQL
+      - Stored Procedures
     properties:
       - type: Documentation
         url: https://docs.oracle.com/cd/E11882_01/appdev.112/e25519/toc.htm
@@ -52,9 +52,9 @@ apis:
       C/C++ API for building database applications.
     humanURL: https://docs.oracle.com/cd/E11882_01/appdev.112/e10646/toc.htm
     tags:
-      - OCI
       - C
       - Native API
+      - OCI
     properties:
       - type: Documentation
         url: https://docs.oracle.com/cd/E11882_01/appdev.112/e10646/toc.htm
@@ -64,10 +64,10 @@ apis:
       RESTful web services for Oracle Database.
     humanURL: https://www.oracle.com/database/technologies/appdev/rest.html
     tags:
-      - REST
-      - Web Services
       - HTTP
       - JSON
+      - REST
+      - Web Services
     properties:
       - type: Documentation
         url: https://docs.oracle.com/cd/E56351_01/doc.30/e56293/toc.htm
