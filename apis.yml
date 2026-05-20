@@ -72,6 +72,8 @@ apis:
       - type: Documentation
         url: https://docs.oracle.com/cd/E56351_01/doc.30/e56293/toc.htm
 common:
+  - type: GitHubOrganization
+    url: https://github.com/oracle
   - url: https://docs.oracle.com/cd/E11882_01/index.htm
     name: Oracle Database 11g Documentation
     type: Documentation
