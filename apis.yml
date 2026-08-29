@@ -3,6 +3,17 @@ name: Oracle Database 11g
 description: >-
   Collection of APIs and interfaces available for Oracle Database 11g.
 type: Index
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: freemium
   onboarding: unknown
